@@ -1,7 +1,12 @@
 #!/usr/bin/python3
-"""Square class to represent a square"""
+"""Working with OOP in python"""
 
 
-class Square:
-    """Implementing square class """
-    pass
+class Square():
+    """Implementing the square class"""
+    def __init__(self, size):
+        """ initialize the class
+        Args:
+           size (int): size of the square
+        """
+        self.__size = size
